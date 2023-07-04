@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+
+  <node pkg="maze_discovery" type="rotate_only.py" name="rotate_only_node" output="screen">
+    
+  </node>
+
+</launch>

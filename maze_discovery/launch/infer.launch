@@ -1,0 +1,16 @@
+<launch>
+
+  <include file="$(find maze_discovery)/launch/rotate_angle.launch" />
+  <!-- <include file="$(find maze_discovery)/launch/assisted_drive.launch" /> -->
+  <include file="$(find jetbot_pro)/launch/lidar.launch" />
+  <include file="$(find maze_discovery)/launch/location_update.launch" />
+  <include file="$(find maze_discovery)/launch/rotate_only.launch" />
+  <!-- <include file="$(find maze_discovery)/launch/inference_drive.launch" /> -->
+  <include file="$(find maze_discovery)/launch/maze_navigate.launch" />
+    
+    
+    <node pkg="maze_discovery" type="inference.py" name="infer_model" output="screen">
+    
+    </node>
+
+</launch>

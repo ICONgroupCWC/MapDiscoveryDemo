@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="maze_discovery" type="scan.py" name="read_lidar" output="screen">
+    
+    </node>
+
+</launch>

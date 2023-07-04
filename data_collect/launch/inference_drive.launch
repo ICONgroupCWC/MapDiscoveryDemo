@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+
+  <node pkg="joy" type="joy_node" name="joy_node">
+    
+  </node>
+
+  <node pkg="data_collect" type="inference_drive.py" name="inference_init_node" output="screen">
+    
+  </node>
+
+</launch>

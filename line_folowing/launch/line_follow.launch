@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- <include file="$(find line_folowing)/launch/csi_camera.launch" /> -->
+  <!-- <node pkg="joy" type="joy_node" name="joy_node"/> -->
+    
+  <!--node pkg="line_folowing" type="drive.py" name="remote" output="screen" /!-->
+
+  <node pkg="line_folowing" type="simple_camera.py" name="line_following" output="screen" />
+
+</launch>

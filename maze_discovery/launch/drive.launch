@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+  
+  <node pkg="joy" type="joy_node" name="joy_node">
+    
+  </node>
+<node pkg="maze_discovery" type="drive.py" name="drive_joy">
+    
+</node>
+
+</launch>

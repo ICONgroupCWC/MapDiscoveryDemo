@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+
+  <node pkg="data_collect" type="maze_navigator.py" name="maze_navigator_node" output="screen">
+    
+  </node>
+
+</launch>

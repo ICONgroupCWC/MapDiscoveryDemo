@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+    
+  <!-- <include file="$(find jetbot_pro)/launch/jetbot.launch" /> -->
+
+  <node pkg="data_collect" type="move_distance.py" name="move_robot_node" output="screen">
+    
+  </node>
+
+</launch>
+

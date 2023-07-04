@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+   
+  <node pkg="data_collect" type="location_update.py" name="maze_tracker_node" output="screen">
+    
+  </node>
+
+
+</launch>

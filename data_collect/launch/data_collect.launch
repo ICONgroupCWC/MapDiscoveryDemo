@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<launch> 
+  
+  <include file="$(find data_collect)/launch/rotate_angle.launch" />
+  <include file="$(find data_collect)/launch/assisted_drive.launch" />
+  <include file="$(find my_simulations)/launch/laser.launch" />
+  <include file="$(find jetbot_pro)/launch/lidar.launch" />
+  <include file="$(find data_collect)/launch/location_update.launch" />
+  <include file="$(find data_collect)/launch/rotate_only.launch" />
+
+
+<node pkg="data_collect" type="data_collect.py" name="train_node" output="screen"/>
+ 
+
+</launch>
