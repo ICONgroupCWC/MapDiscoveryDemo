@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="draw_maze" type="draw_maze.py" name="draw_maze" output="screen">
+    
+    </node>
+
+</launch>
