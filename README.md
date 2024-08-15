@@ -1,4 +1,4 @@
-# Maze Discovery using Multiple Robots via Federated Learning
+# Maze Discovery using Multiple Robots via Federated Learning [arXiv](https://arxiv.org/abs/2407.01596)
 
 This repository showcases an implementation of FL in the context of maze exploration using LiDAR sensors-equipped robots. The main objective is to train classification models capable of accurately identifying grid area shapes within two square mazes with irregular walls. By leveraging FL, the robots can collaborate and share knowledge, enabling them to navigate and discover mazes more effectively. This repository contains the code and resources necessary to replicate and build upon this FL-based maze discovery system.
 - There are three main phases in this work
